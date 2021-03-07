@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DesignStudio.Controllers;
 
 namespace DesignStudio
 {
@@ -20,9 +22,19 @@ namespace DesignStudio
     /// </summary>
     public partial class MainWindow : Window
     {
+        MyDbContext myDb;
         public MainWindow()
         {
             InitializeComponent();
+            myDb = new MyDbContext();
+            myDb.Orders.Load();
+            datagrid.ItemsSource = myDb.Orders.Local.ToBindingList();
+            this.Closing += MainWindow_Closing;
+        }
+
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            myDb.Dispose();
         }
     }
 }
