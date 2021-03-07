@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DesignStudio.Models
 {
@@ -44,13 +41,13 @@ namespace DesignStudio.Models
         /// <summary>
         /// Ссылка на клиента, сделавшего заказ
         /// </summary>
-        public int ClientId { get; set; }
+        public int? ClientId { get; set; }
         public Client Client { get; set; }
 
         /// <summary>
         /// Ссылка на дизайнера, который делает/делал заказ
         /// </summary>
-        public int DesignerId { get; set; }
+        public int? DesignerId { get; set; }
         public Designer Designer { get; set; }
 
         /// <summary>
