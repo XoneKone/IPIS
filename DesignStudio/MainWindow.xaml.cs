@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DesignStudio.Controllers;
 
+
 namespace DesignStudio
 {
     /// <summary>
@@ -27,7 +28,8 @@ namespace DesignStudio
         {
             InitializeComponent();
             myDb = new MyDbContext();
-            myDb.Orders.Load();
+            myDb.Clients.Load();
+            ClientGrid.ItemsSource = myDb.Clients.Local.ToBindingList();
             this.Closing += MainWindow_Closing;
         }
 
