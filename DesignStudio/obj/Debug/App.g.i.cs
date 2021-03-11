@@ -44,11 +44,7 @@ namespace DesignStudio {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD:Design_studio/obj/Debug/netcoreapp3.1/App.g.i.cs
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.8.1.0")]
-=======
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
->>>>>>> 9b0915ae8526978873eb615330450cfa6472c0dc:DesignStudio/obj/Debug/App.g.i.cs
         public void InitializeComponent() {
             
             #line 5 "..\..\App.xaml"
@@ -63,11 +59,7 @@ namespace DesignStudio {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-<<<<<<< HEAD:Design_studio/obj/Debug/netcoreapp3.1/App.g.i.cs
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.8.1.0")]
-=======
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
->>>>>>> 9b0915ae8526978873eb615330450cfa6472c0dc:DesignStudio/obj/Debug/App.g.i.cs
         public static void Main() {
             DesignStudio.App app = new DesignStudio.App();
             app.InitializeComponent();
