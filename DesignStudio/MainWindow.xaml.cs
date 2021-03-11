@@ -28,7 +28,6 @@ namespace DesignStudio
             InitializeComponent();
             myDb = new MyDbContext();
             myDb.Orders.Load();
-            datagrid.ItemsSource = myDb.Orders.Local.ToBindingList();
             this.Closing += MainWindow_Closing;
         }
 
