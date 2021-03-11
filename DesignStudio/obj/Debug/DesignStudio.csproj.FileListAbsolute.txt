@@ -1,0 +1,39 @@
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\DesignStudio.exe.config
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\DesignStudio.exe
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\DesignStudio.pdb
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\EntityFramework.dll
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\EntityFramework.xml
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.csprojAssemblyReference.cache
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\MainWindow.g.cs
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\App.g.cs
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio_MarkupCompile.cache
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio_MarkupCompile.lref
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\MainWindow.baml
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.g.resources
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.Properties.Resources.resources
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.GenerateResource.cache
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.CoreCompileInputs.cache
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.CopyComplete
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.exe
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\DesignStudio.pdb
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.csprojAssemblyReference.cache
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\App.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio_MarkupCompile.cache
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.exe
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.pdb
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio_MarkupCompile.lref
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\DesignStudio.exe.config
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\DesignStudio.exe
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\DesignStudio.pdb
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.g.resources
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.Properties.Resources.resources
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.GenerateResource.cache
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.CopyComplete

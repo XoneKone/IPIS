@@ -1,0 +1,17 @@
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\bin\Debug\netcoreapp3.1\Design_studio.exe
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\bin\Debug\netcoreapp3.1\Design_studio.deps.json
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\bin\Debug\netcoreapp3.1\Design_studio.runtimeconfig.json
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\bin\Debug\netcoreapp3.1\Design_studio.runtimeconfig.dev.json
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\bin\Debug\netcoreapp3.1\Design_studio.dll
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\bin\Debug\netcoreapp3.1\Design_studio.pdb
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio.csprojAssemblyReference.cache
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio_MarkupCompile.cache
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio_MarkupCompile.lref
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio.g.resources
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio.AssemblyInfoInputs.cache
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio.AssemblyInfo.cs
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio.dll
+C:\Users\User\Documents\дизайн студия\IPIS\Design_studio\obj\Debug\netcoreapp3.1\Design_studio.pdb
