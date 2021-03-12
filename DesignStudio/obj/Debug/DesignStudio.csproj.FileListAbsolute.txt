@@ -37,3 +37,9 @@ C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\De
 C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.Properties.Resources.resources
 C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.GenerateResource.cache
 C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\DesignStudio.csproj.CopyComplete
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Del_kl.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Del_kl.baml
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Add_kl.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Add_kl.baml
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Ch_kl.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Ch_kl.baml
