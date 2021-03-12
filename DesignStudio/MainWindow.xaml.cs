@@ -31,11 +31,38 @@ namespace DesignStudio
             myDb.Clients.Load();
             ClientGrid.ItemsSource = myDb.Clients.Local.ToBindingList();
             this.Closing += MainWindow_Closing;
+
         }
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             myDb.Dispose();
         }
+
+        //protected virtual void dob_kl_Click(object sender, System.EventArgs e)
+        //{
+           // dob_kl dob_kl = new dob_kl();
+            //dob_kl.Show();
+        //}
+
+        private void Add_kl_Click(object sender, RoutedEventArgs e)
+        {
+            Add_kl add_kl = new Add_kl();
+            add_kl.Show();
+        }
+
+        private void Del_kl_Click(object sender, RoutedEventArgs e)
+        {
+            Del_kl del_kl = new Del_kl();
+            del_kl.Show();
+        }
+
+        private void Ch_kl_Click(object sender, RoutedEventArgs e)
+        {
+            Ch_kl ch_kl = new Ch_kl();
+            ch_kl.Show();
+        }
+
+
     }
 }

@@ -9,13 +9,14 @@
     <Grid>
         <TabControl>
             <TabItem Header="Клиенты">
-                <Grid Background="#FFE5E5E5" Margin="-53,0,-5,0">
+                <Grid Margin="-53,0,-5,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="44*"/>
                         <ColumnDefinition Width="22*"/>
                         <ColumnDefinition Width="6*"/>
                         <ColumnDefinition Width="325*"/>
                     </Grid.ColumnDefinitions>
+<<<<<<< HEAD
                     <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFF0F6F5"/>
                     <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFF0F6F5"/>
                     <Button Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFF0F6F5"/>
@@ -29,52 +30,62 @@
                             <DataGridTextColumn Binding="{Binding Orders}" Header="Заказы" Width="200"/>
                         </DataGrid.Columns>
                     </DataGrid>
+=======
+                    <Image Grid.ColumnSpan="4" Source="Image5.png" Stretch="Fill" Margin="0,-24,0,-12.8"/>
+                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFE5E1C9" Click ="Ch_kl_Click"/>
+                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFE5E1C9" Click ="Del_kl_Click"/>
+                    <Button x:Name="add_kl" Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFE5E1C9"  Click ="Add_kl_Click"/>
+                    <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFE5E1C9"/>
+                    <DataGrid Grid.ColumnSpan="4" Margin="47,0,227.2,-12.8" Background="#FFE5E1C9"/>
+>>>>>>> Dev-Chernaya
                 </Grid>
             </TabItem>
             <TabItem Header="Заказы">
-                <Grid Background="#FFE5E5E5" Margin="-53,0,-5,0">
+                <Grid Margin="-53,0,-5,0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="94*"/>
-                        <ColumnDefinition Width="47*"/>
-                        <ColumnDefinition Width="13*"/>
-                        <ColumnDefinition Width="36*"/>
-                        <ColumnDefinition Width="662*"/>
+                        <ColumnDefinition Width="44*"/>
+                        <ColumnDefinition Width="22*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="325*"/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="502,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="4" Background="#FFF0F6F5"/>
-                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="502,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="4" Background="#FFF0F6F5"/>
-                    <Button Content="Добавить" Grid.Column="4" HorizontalAlignment="Left" Margin="502,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFF0F6F5"/>
-                    <Button Content="Обновить" Grid.Column="4" HorizontalAlignment="Left" Margin="502,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFF0F6F5"/>
-                    <DataGrid Grid.ColumnSpan="5" Margin="47,0,196,0"/>
+                    <Image Grid.ColumnSpan="4" Source="Image5.png" Stretch="Fill" Margin="0,-24,0,-12.8"/>
+                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFE5E1C9"/>
+                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFE5E1C9" />
+                    <Button Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFE5E1C9" />
+                    <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFE5E1C9"/>
+                    <DataGrid Grid.ColumnSpan="4" Margin="47,0,227.2,-12.8" Background="#FFE5E1C9"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Дизайн">
-                <Grid Background="#FFE5E5E5" Margin="-53,0,-5,0">
+                <Grid Margin="-53,0,-5,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="44*"/>
                         <ColumnDefinition Width="22*"/>
                         <ColumnDefinition Width="6*"/>
                         <ColumnDefinition Width="325*"/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFF0F6F5"/>
-                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFF0F6F5"/>
-                    <Button Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFF0F6F5"/>
-                    <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFF0F6F5"/>
-                    <DataGrid Grid.ColumnSpan="4" Margin="47,0,196,0"/>
+                    <Image Grid.ColumnSpan="4" Source="Image5.png" Stretch="Fill" Margin="0,-24,0,-12.8"/>
+                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFE5E1C9"/>
+                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFE5E1C9" />
+                    <Button Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFE5E1C9" />
+                    <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFE5E1C9"/>
+                    <DataGrid Grid.ColumnSpan="4" Margin="47,0,227.2,-12.8" Background="#FFE5E1C9"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Рассрочка">
-                <Grid Background="#FFE5E5E5" Margin="-53,0,-5,0">
+                <Grid Margin="-53,0,-5,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="44*"/>
                         <ColumnDefinition Width="22*"/>
                         <ColumnDefinition Width="6*"/>
                         <ColumnDefinition Width="325*"/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFF0F6F5"/>
-                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFF0F6F5"/>
-                    <Button Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFF0F6F5"/>
-                    <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFF0F6F5"/>
-                    <DataGrid Grid.ColumnSpan="4" Margin="47,0,196,0"/>
+                    <Image Grid.ColumnSpan="4" Source="Image5.png" Stretch="Fill" Margin="0,-24,0,-12.8"/>
+                    <Button Content="Изменить" HorizontalAlignment="Left" Margin="538,134,0,0" VerticalAlignment="Top" Width="112" Height="25" Grid.Column="3" Background="#FFE5E1C9"/>
+                    <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFE5E1C9" />
+                    <Button Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFE5E1C9" />
+                    <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFE5E1C9"/>
+                    <DataGrid Grid.ColumnSpan="4" Margin="47,0,227.2,-12.8" Background="#FFE5E1C9"/>
                 </Grid>
             </TabItem>
         </TabControl>
