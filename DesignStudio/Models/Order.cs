@@ -31,7 +31,7 @@ namespace DesignStudio.Models
         /// <summary>
         /// Описание заказа
         /// </summary>
-        public string Descritption { get; set; }
+        public string Description { get; set; }
 
         /// <summary>
         /// Статус готовности заказа

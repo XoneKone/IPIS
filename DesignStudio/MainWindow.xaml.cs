@@ -23,20 +23,18 @@ namespace DesignStudio
     /// </summary>
     public partial class MainWindow : Window
     {
-        MyDbContext myDb;
+        Controller controller = new Controller();
+
         public MainWindow()
         {
             InitializeComponent();
-            myDb = new MyDbContext();
-            myDb.Clients.Load();
-            ClientGrid.ItemsSource = myDb.Clients.Local.ToBindingList();
+            controller.ShowClients(ref ClientGrid);
             this.Closing += MainWindow_Closing;
-
         }
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            myDb.Dispose();
+            controller.Dispose();
         }
 
         //protected virtual void dob_kl_Click(object sender, System.EventArgs e)

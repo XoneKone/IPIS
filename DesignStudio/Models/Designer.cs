@@ -32,9 +32,30 @@ namespace DesignStudio.Models
         public DateTime Birthdate { get; set; }
 
         /// <summary>
+        /// Номер телефона
+        /// </summary>
+        public string MobilePhone { get; set; }
+
+        /// <summary>
+        /// Адресс
+        /// </summary>
+        public string Address { get; set; }
+
+        /// <summary>
         /// Возраст дизайнера
         /// </summary>
         public int Age { get { return DateTime.Now.Year - Birthdate.Year; } }
+
+        /// <summary>
+        /// Оклад
+        /// </summary>
+        public double Salary { get; set; }
+
+
+        /// <summary>
+        /// Должность
+        /// </summary>
+        public double Post { get; set; }
 
         /// <summary>
         /// Cсылка на заказы

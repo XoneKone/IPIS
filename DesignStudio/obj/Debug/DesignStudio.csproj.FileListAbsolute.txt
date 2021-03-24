@@ -43,3 +43,9 @@ C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Ad
 C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Add_kl.baml
 C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Ch_kl.g.cs
 C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Ch_kl.baml
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Add_kl.g.cs
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Ch_kl.g.cs
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Del_kl.g.cs
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Add_kl.baml
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Ch_kl.baml
+C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Del_kl.baml

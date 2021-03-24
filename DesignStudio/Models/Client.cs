@@ -31,6 +31,16 @@ namespace DesignStudio.Models
         public DateTime Birthdate { get; set; }
 
         /// <summary>
+        /// Номер телефона
+        /// </summary>
+        public string MobilePhone { get; set; }
+
+        /// <summary>
+        /// Адресс
+        /// </summary>
+        public string Address { get; set; }
+
+        /// <summary>
         /// Возраст клиента
         /// </summary>
         public int Age { get { return DateTime.Now.Year - Birthdate.Year; } }

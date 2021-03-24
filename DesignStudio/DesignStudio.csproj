@@ -71,6 +71,7 @@
     <Compile Include="Ch_kl.xaml.cs">
       <DependentUpon>Ch_kl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\Controller.cs" />
     <Compile Include="Del_kl.xaml.cs">
       <DependentUpon>Del_kl.xaml</DependentUpon>
     </Compile>
