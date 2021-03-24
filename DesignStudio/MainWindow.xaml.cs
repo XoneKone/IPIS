@@ -5,21 +5,7 @@ using System.Windows;
 using System.Windows.Data;
 
 namespace DesignStudio
-{
-    public class Converter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-
-            return value.ToString();
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            return DependencyProperty.UnsetValue;
-        }
-    }
-
+{  
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
