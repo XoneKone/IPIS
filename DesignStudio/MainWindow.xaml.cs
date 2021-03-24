@@ -1,47 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesignStudio.Controllers;
+using System;
+using System.Globalization;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using DesignStudio.Controllers;
-
 
 namespace DesignStudio
 {
+    public class Converter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+
+            return value.ToString();
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return DependencyProperty.UnsetValue;
+        }
+    }
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+
+
+
         Controller controller = new Controller();
 
         public MainWindow()
         {
             InitializeComponent();
+
             controller.ShowClients(ref ClientGrid);
+            controller.ShowDesigners(ref DesignerGrid);
+            controller.ShowOrders(ref OrderGrid);
+
             this.Closing += MainWindow_Closing;
         }
 
-        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            controller.Dispose();
-        }
-
-        //protected virtual void dob_kl_Click(object sender, System.EventArgs e)
-        //{
-           // dob_kl dob_kl = new dob_kl();
-            //dob_kl.Show();
-        //}
+       
 
         private void Add_kl_Click(object sender, RoutedEventArgs e)
         {
@@ -61,6 +61,10 @@ namespace DesignStudio
             ch_kl.Show();
         }
 
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            controller.Dispose();
+        }
 
     }
 }

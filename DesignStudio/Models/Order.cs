@@ -70,6 +70,10 @@ namespace DesignStudio.Models
         /// </summary>
         public string Comments { get; set; }
 
-        
+        public override string ToString()
+        {
+            return Number;
+        }
+
     }
 }

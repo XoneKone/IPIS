@@ -61,5 +61,10 @@ namespace DesignStudio.Models
         /// Cсылка на заказы
         /// </summary>
         public List<Order> Orders { get; set; }
+
+        public override string ToString()
+        {
+            return Surname + " " + Name + " " + MiddleName;
+        }
     }
 }

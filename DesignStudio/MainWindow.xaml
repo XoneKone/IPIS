@@ -25,14 +25,14 @@
                     <Button Content="Удалить" HorizontalAlignment="Left" Margin="538,180,0,0" VerticalAlignment="Top" Height="23" Width="112" Grid.Column="3" Background="#FFE5E1C9" Click ="Del_kl_Click"/>
                     <Button x:Name="add_kl" Content="Добавить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,89,0,0" VerticalAlignment="Top" Height="25" Width="112" Background="#FFE5E1C9"  Click ="Add_kl_Click"/>
                     <Button Content="Обновить" Grid.Column="3" HorizontalAlignment="Left" Margin="538,224,0,0" VerticalAlignment="Top" Width="112" Height="22" Background="#FFE5E1C9"/>
-                    <DataGrid  x:Name="ClientGrid" Grid.ColumnSpan="4" Margin="47,0,227.2,-12.8" Background="#FFE5E1C9">
+                    <DataGrid  x:Name="ClientGrid" AutoGenerateColumns="False" Grid.ColumnSpan="4" Margin="47,0,227.2,-12.8" Background="#FFE5E1C9">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Name}" Header="Имя" Width="100"/>
                             <DataGridTextColumn Binding="{Binding Surname}" Header="Фамилия" Width="100"/>
                             <DataGridTextColumn Binding="{Binding MiddleName}" Header="Отчество" Width="100"/>
                             <DataGridTextColumn Binding="{Binding Birthdate}" Header="Дата рождения" Width="100"/>
                             <DataGridTextColumn Binding="{Binding MobilePhone}" Header="Моб. телефон" Width="100"/>
-                            <DataGridTextColumn Binding="{Binding Orders}" Header="Заказы" Width="200"/>
+                            <DataGridTextColumn Binding="{Binding Address}" Header="Адрес" Width="100"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
