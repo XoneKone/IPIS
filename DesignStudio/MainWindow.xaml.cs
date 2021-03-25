@@ -1,47 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DesignStudio.Controllers;
+using System;
+using System.Globalization;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using DesignStudio.Controllers;
 
 namespace DesignStudio
-{
+{  
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        MyDbContext myDb;
+
+
+
+        Controller controller = new Controller();
+
         public MainWindow()
         {
             InitializeComponent();
-            myDb = new MyDbContext();
-            myDb.Orders.Load();
+
+            controller.ShowClients(ref ClientGrid);
+            controller.ShowDesigners(ref DesignerGrid);
+            controller.ShowOrders(ref OrderGrid);
+
             this.Closing += MainWindow_Closing;
-
         }
 
-        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            myDb.Dispose();
-        }
-
-        //protected virtual void dob_kl_Click(object sender, System.EventArgs e)
-        //{
-           // dob_kl dob_kl = new dob_kl();
-            //dob_kl.Show();
-        //}
+       
 
         private void Add_kl_Click(object sender, RoutedEventArgs e)
         {
@@ -61,6 +47,10 @@ namespace DesignStudio
             ch_kl.Show();
         }
 
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            controller.Dispose();
+        }
 
     }
 }
