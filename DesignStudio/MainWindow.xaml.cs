@@ -14,15 +14,15 @@ namespace DesignStudio
 
 
 
-        Controller controller = new Controller();
+       // Controller controller = new Controller();
 
         public MainWindow()
         {
             InitializeComponent();
 
-            controller.ShowClients(ref ClientGrid);
-            controller.ShowDesigners(ref DesignerGrid);
-            controller.ShowOrders(ref OrderGrid);
+            //controller.ShowClients(ref ClientGrid);
+            //controller.ShowDesigners(ref DesignerGrid);
+            //controller.ShowOrders(ref OrderGrid);
 
             this.Closing += MainWindow_Closing;
         }
@@ -47,9 +47,17 @@ namespace DesignStudio
             ch_kl.Show();
         }
 
+        private void Add_zakaz_Click(object sender, RoutedEventArgs e)
+        {
+            Add_zakaz add_zakaz = new Add_zakaz();
+            add_zakaz.Show();
+        }
+
+
+
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            controller.Dispose();
+          //  controller.Dispose();
         }
 
     }
