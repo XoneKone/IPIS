@@ -50,3 +50,5 @@ C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Add_kl.baml
 C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Ch_kl.baml
 C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\Del_kl.baml
 C:\Users\Костя\Documents\Git\IPIS\DesignStudio\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Add_zakaz.g.cs
+C:\Users\User\Documents\дизайн студия\IPIS\DesignStudio\obj\Debug\Add_zakaz.baml

@@ -68,6 +68,9 @@
     <Compile Include="Add_kl.xaml.cs">
       <DependentUpon>Add_kl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Add_zakaz.xaml.cs">
+      <DependentUpon>Add_zakaz.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Ch_kl.xaml.cs">
       <DependentUpon>Ch_kl.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
       <DependentUpon>Del_kl.xaml</DependentUpon>
     </Compile>
     <Page Include="Add_kl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Add_zakaz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,12 +137,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image2.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image3.png" />
