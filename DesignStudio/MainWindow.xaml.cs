@@ -1,11 +1,8 @@
 ﻿using DesignStudio.Controllers;
-using System;
-using System.Globalization;
 using System.Windows;
-using System.Windows.Data;
 
 namespace DesignStudio
-{  
+{
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -27,7 +24,7 @@ namespace DesignStudio
             this.Closing += MainWindow_Closing;
         }
 
-       
+
 
         private void Add_kl_Click(object sender, RoutedEventArgs e)
         {

@@ -52,7 +52,7 @@ namespace DesignStudio.Models
 
         public override string ToString()
         {
-            return Surname + " " + Name  + " " + MiddleName;
+            return Surname + " " + Name + " " + MiddleName;
         }
     }
 }

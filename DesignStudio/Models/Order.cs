@@ -34,6 +34,11 @@ namespace DesignStudio.Models
         public string Description { get; set; }
 
         /// <summary>
+        /// Стоимость заказа
+        /// </summary>
+        public double Cost { get; set; }
+
+        /// <summary>
         /// Статус готовности заказа
         /// </summary>
         public ReadyStatus ReadyStatus { get; set; }
