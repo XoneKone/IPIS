@@ -68,7 +68,7 @@ namespace DesignStudio.Models
         /// <summary>
         /// Сроки выполнения работы
         /// </summary>
-        public int DeadlineWork { get; set; }
+        public DateTime DeadlineWork { get; set; }
 
         /// <summary>
         /// Комментарии клиента

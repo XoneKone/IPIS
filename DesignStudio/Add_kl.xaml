@@ -12,17 +12,17 @@
         <Label Content="✔" HorizontalAlignment="Left" Margin="12.776,13.52,0,0" VerticalAlignment="Top" FontFamily="Snap ITC" FontSize="14" FontStyle="Italic"/>
         <Label Content="добавить клиента" HorizontalAlignment="Left" Margin="42,10,0,0" VerticalAlignment="Top" Width="194" FontFamily="Monotype Corsiva" Cursor="SizeAll" FontSize="22" Background="{x:Null}" FontWeight="Bold"/>
         <Label Content="Фамилия" HorizontalAlignment="Left" Margin="79,63.1,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="33.9" Width="99.993" FontFamily="Franklin Gothic Medium" FontWeight="Bold" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="235.3,63.1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBDB689"/>
+        <TextBox x:Name="Surname_textbox" HorizontalAlignment="Left" Height="23" Margin="235.3,63.1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBDB689"/>
         <Label Content="Имя" HorizontalAlignment="Left" Margin="79,102,0,0" VerticalAlignment="Top" Background="{x:Null}" Width="99.993" Height="24.36" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="235.3,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBDB689"/>
+        <TextBox x:Name="Name_textbox" HorizontalAlignment="Left" Height="23" Margin="235.3,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBDB689"/>
         <Label Content="Отчество" HorizontalAlignment="Left" Margin="79,141.2,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="33.6" Width="99.993" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="235.3,141.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBDB689"/>
+        <TextBox x:Name="Midname_textbox" HorizontalAlignment="Left" Height="23" Margin="235.3,141.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFBDB689"/>
         <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="79,176.133,0,0" VerticalAlignment="Top" Height="33.4" Width="115.593" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
-        <DatePicker HorizontalAlignment="Left" Margin="235.3,178.846,0,0" VerticalAlignment="Top" Height="24.514" Width="120" Background="#FFBDB689"/>
+        <DatePicker x:Name="birthdate_picker" HorizontalAlignment="Left" Margin="235.3,178.846,0,0" VerticalAlignment="Top" Height="24.514" Width="120" Background="#FFBDB689"/>
         <Label Content="Моб телефон" HorizontalAlignment="Left" Margin="79,218.2,0,0" VerticalAlignment="Top" Height="35" Width="99.993" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontWeight="Bold" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="235.3,218.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Background="#FFCBC28D"/>
+        <TextBox x:Name="mobphone_textbox" HorizontalAlignment="Left" Height="23" Margin="235.3,218.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Background="#FFCBC28D"/>
         <Label Content="Адрес" HorizontalAlignment="Left" Margin="79,258.2,0,0" VerticalAlignment="Top" Height="35.56" Width="99.993" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontWeight="Bold" FontSize="16"/>
-        <RichTextBox HorizontalAlignment="Left" Height="23" Margin="235.3,258.2,0,0" VerticalAlignment="Top" Width="120" Background="#FFCAC18D">
+        <RichTextBox x:Name="address_richtextbox" HorizontalAlignment="Left" Height="66" Margin="235,258,0,0" VerticalAlignment="Top" Width="120" Background="#FFCAC18D">
             <FlowDocument/>
         </RichTextBox>
 
@@ -31,36 +31,36 @@
 
 
         <Label Content="№ заказа" HorizontalAlignment="Left" Margin="408.807,63.1,0,0" VerticalAlignment="Top" Width="97.593" Height="33.9" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontWeight="Bold" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="562.9,63.66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFCBC28D"/>
+        <TextBox x:Name="number_textbox" HorizontalAlignment="Left" Height="23" Margin="562.9,63.66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFCBC28D"/>
         <Label Content="Описание заказа" HorizontalAlignment="Left" Margin="406.2,100.76,0,0" VerticalAlignment="Top" Height="25.96" Width="139.593" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
-        <RichTextBox HorizontalAlignment="Left" Height="25.6" Margin="562.9,100.76,0,0" VerticalAlignment="Top" Width="120" Background="#FFCBC28D">
+        <RichTextBox x:Name="descr_richtextbox" HorizontalAlignment="Left" Height="25.6" Margin="562.9,100.76,0,0" VerticalAlignment="Top" Width="120" Background="#FFCBC28D">
             <FlowDocument/>
         </RichTextBox>
         <Label Content="Статус заказа" HorizontalAlignment="Left" Margin="406.2,139.6,0,0" VerticalAlignment="Top" Height="32.84" Width="111.993" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontWeight="Bold" FontSize="16"/>
-        <ComboBox HorizontalAlignment="Left" Margin="562.9,141.2,0,0" VerticalAlignment="Top" Width="120"  Height="24.36" Background="#FFCBC28D" FontFamily="Franklin Gothic Medium">
+        <ComboBox x:Name="readystatus_combobox" HorizontalAlignment="Left" Margin="562.9,141.2,0,0" VerticalAlignment="Top" Width="120"  Height="24.36" Background="#FFCBC28D" FontFamily="Franklin Gothic Medium">
             <TextBlock Background="#FF42BA14">готово</TextBlock>
             <TextBlock Background="#FFBA1A14">принято в работу</TextBlock>
             <TextBlock Background="#FFE8E33D">на оформлении</TextBlock>
         </ComboBox>
-        <Label Content="Статус оплаты" HorizontalAlignment="Left" Margin="406.2,177.44,0,0" VerticalAlignment="Top" Width="123.786" Background="{x:Null}" Height="32.093" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
-        <ComboBox HorizontalAlignment="Left" Margin="562.9,176.133,0,0" VerticalAlignment="Top" Width="120" Height="24.36" Background="#FFCBC28D">
+        <Label  Content="Статус оплаты" HorizontalAlignment="Left" Margin="406.2,177.44,0,0" VerticalAlignment="Top" Width="123.786" Background="{x:Null}" Height="32.093" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
+        <ComboBox x:Name="paystatus_combobox" HorizontalAlignment="Left" Margin="562.9,176.133,0,0" VerticalAlignment="Top" Width="120" Height="24.36" Background="#FFCBC28D">
             <TextBlock>оплачено</TextBlock>
             <TextBlock>рассрочка</TextBlock>
         </ComboBox>
         <Label Content="Стоимость заказа" HorizontalAlignment="Left" Margin="406.2,218.2,0,0" VerticalAlignment="Top" FontFamily="Franklin Gothic Medium" Background="{x:Null}" FontSize="16" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="562.9,218.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFCBC28D"/>
+        <TextBox x:Name="cost_textbox" HorizontalAlignment="Left" Height="23" Margin="562.9,218.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFCBC28D"/>
         <Label Content="Дата оформления" HorizontalAlignment="Left" Margin="406.2,258.2,0,0" VerticalAlignment="Top" Width="136.986" Background="{x:Null}" FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold" />
         <TextBox HorizontalAlignment="Left" Height="23" Margin="562.9,258.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFCBC28D"/>
         <Label Content="Сроки выполнения" HorizontalAlignment="Left" Margin="405.107,296,0,0" VerticalAlignment="Top" Width="152.793" FontFamily="Franklin Gothic Medium" Background="{x:Null}" FontSize="16" FontWeight="Bold"/>
-        <DatePicker HorizontalAlignment="Left" Margin="562.9,300.14,0,0" VerticalAlignment="Top" Width="118.907" Background="#FFCBC28D"/>
+        <DatePicker x:Name="deadline_picker" HorizontalAlignment="Left" Margin="562.9,300.14,0,0" VerticalAlignment="Top" Width="118.907" Background="#FFCBC28D"/>
         <Label Content="Комментарии  &#xD;&#xA;клиента" HorizontalAlignment="Left" Margin="405.107,338.08,0,0" VerticalAlignment="Top" FontFamily="Franklin Gothic Medium" Background="{x:Null}" FontSize="16" FontWeight="Bold" Width="138.079" Height="47.34"/>
-        <RichTextBox HorizontalAlignment="Left" Height="23.34" Margin="562.9,342.88,0,0" VerticalAlignment="Top" Width="118.907" Background="#FFCBC28D">
+        <RichTextBox x:Name="comments_richtextbox" HorizontalAlignment="Left" Height="23.34" Margin="562.9,342.88,0,0" VerticalAlignment="Top" Width="118.907" Background="#FFCBC28D">
             <FlowDocument/>
         </RichTextBox>
         <Label Content="Дизайнеры" HorizontalAlignment="Left" Margin="405.107,384.9,0,0" VerticalAlignment="Top" Background="{x:Null}"  FontFamily="Franklin Gothic Medium" FontSize="16" FontWeight="Bold"/>
-        <ComboBox HorizontalAlignment="Left" Margin="562.9,384.9,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Добавить" HorizontalAlignment="Left" Margin="618.6,438.8,0,0" VerticalAlignment="Top" Width="111" Height="31.16" Background="#FFCBC28D"/>
-       
+        <ComboBox x:Name="designers_combobox" HorizontalAlignment="Left" Margin="562.9,384.9,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="add_button" Content="Добавить" HorizontalAlignment="Left" Margin="618.6,438.8,0,0" VerticalAlignment="Top" Width="111" Height="31.16" Background="#FFCBC28D" Click="add_button_Click"/>
+
 
 
 

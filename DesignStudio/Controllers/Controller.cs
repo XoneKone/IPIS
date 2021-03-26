@@ -1,6 +1,9 @@
 ﻿using DesignStudio.Models;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
+using System.Linq;
 using System.Windows.Controls;
 
 
@@ -42,22 +45,28 @@ namespace DesignStudio.Controllers
         }
 
 
-        public void AddOrder(string number, string description, ReadyStatus readyStatus,
-                              int clientId, int designerId, PaymentStatus paymentStatus,
-                              DateTime orderDate, int deadlinework, string comments)
+        public void AddOrder(string number, string description,double cost, int readyStatus,
+                              int clientId, int designerId, int paymentStatus,
+                              DateTime orderDate, string deadlinework, string comments)
         {
             Order order = new Order();
             order.Number = number;
             order.Description = description;
-            order.ReadyStatus = readyStatus;
+            order.Cost = cost;
+            order.ReadyStatus = (ReadyStatus)readyStatus;
             order.ClientId = clientId;
             order.DesignerId = designerId;
-            order.PaymentStatus = paymentStatus;
+            order.PaymentStatus = (PaymentStatus)paymentStatus;
             order.OrderDate = orderDate;
-            order.DeadlineWork = deadlinework;
+            order.DeadlineWork = DateTime.Parse(deadlinework);
             order.Comments = comments;
             DbContext.Orders.Add(order);
             DbContext.SaveChanges();
+        }
+
+        public int GetLastClient()
+        {
+            return DbContext.Clients.MaxAsync(x => x.Id).Result;
         }
 
         public void ShowClients(ref DataGrid dataGrid)
@@ -65,6 +74,17 @@ namespace DesignStudio.Controllers
             DbContext.Clients.Load();
             dataGrid.ItemsSource = DbContext.Clients.Local.ToBindingList();
 
+        }
+
+        public ObservableCollection<string> GetListDesigners()
+        {
+            ObservableCollection<string> designers = new ObservableCollection<string>();
+            var Designers = DbContext.Designers.ToList();
+            foreach(Designer designer in Designers)
+            {
+                designers.Add(designer.ToString());
+            }
+            return designers;
         }
 
         public void ShowDesigners(ref DataGrid dataGrid)
